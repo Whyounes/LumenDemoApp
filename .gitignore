@@ -1,0 +1,5 @@
+/lumen.log
+/vendor
+Vagrantfile
+.vagrant/
+.idea/
