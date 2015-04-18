@@ -11,4 +11,4 @@
 |
 */
 
-$app->post('/parse', 'MarkdownController@parse');
+$app->get('/parse', 'MarkdownController@parse');
