@@ -9,11 +9,6 @@ use League\CommonMark\CommonMarkConverter;
 class MarkdownController extends Controller
 {
 
-    public function index(View $view)
-    {
-        return $view->make('homepage');
-    }
-
     public function parse(Request $request, CommonMarkConverter $parser)
     {
         $text = $request->get('text');
